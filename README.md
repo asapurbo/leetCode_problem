@@ -1,29 +1,28 @@
-283. Move Zeroes
-Solved
+169. Majority Element
 Easy
 Topics
 Companies
-Hint
-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+Given an array nums of size n, return the majority element.
 
-Note that you must do this in-place without making a copy of the array.
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
 
  
 
 Example 1:
 
-Input: nums = [0,1,0,3,12]
-Output: [1,3,12,0,0]
+Input: nums = [3,2,3]
+Output: 3
 Example 2:
 
-Input: nums = [0]
-Output: [0]
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
  
 
 Constraints:
 
-1 <= nums.length <= 104
--231 <= nums[i] <= 231 - 1
+n == nums.length
+1 <= n <= 5 * 104
+-109 <= nums[i] <= 109
  
 
-Follow up: Could you minimize the total number of operations done?
+Follow-up: Could you solve the problem in linear time and in O(1) space?
